@@ -2,24 +2,20 @@ package net.d3add3d.andplay.apgame02;
 
 public class Bacon {
 	
-	boolean tasty, crunchy, fried;
 	String tastyText, crunchyText, friedText;
 	
 	Bacon(boolean tasty, boolean crunchy, boolean fried) {
-		this.tasty = tasty;
-		this.crunchy = crunchy;
-		this.fried = fried;
-		if (this.tasty) {
+		if (tasty) {
 			this.tastyText = " is ";
 		} else {
 			this.tastyText = " is not ";
 		}
-		if (this.crunchy) {
+		if (crunchy) {
 			this.crunchyText = " is ";
 		} else {
 			this.crunchyText = " is not ";
 		}
-		if (this.fried) {
+		if (fried) {
 			this.friedText = " is ";
 		} else {
 			this.friedText = " is not ";
